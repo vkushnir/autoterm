@@ -15,7 +15,7 @@ Keys matheth form beginnig.
 
     Usage: autoterm.py [options] <data> [<connection>]
 
-###Options:
+### Options:
 
 **SLEEP** *-s SLEEP, --sleep=SLEEP*
     
@@ -41,11 +41,11 @@ Keys matheth form beginnig.
     
 ### JSON File Format
 
-####settings
+#### settings
 
 Contains serial connection settings. **default** is default settings.
 
-####data
+#### data
 
 Contains **key**=**value** pairs. **default** is default settings.
 
