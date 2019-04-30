@@ -1,0 +1,65 @@
+{
+  "settings": {
+    "_comment": {
+      "port":     "Device name or None.",
+      "baudrate": "(int) – Baudrate such as 9600 or 115200 etc.",
+      "bytesize": "Number of data bits. Possible values: FIVEBITS, SIXBITS, SEVENBITS, EIGHTBITS",
+      "parity":   "Enable parity checking. Possible values: PARITY_NONE, PARITY_EVEN, PARITY_ODD PARITY_MARK, PARITY_SPACE",
+      "stopbits": "Number of stop bits. Possible values: STOPBITS_ONE, STOPBITS_ONE_POINT_FIVE, STOPBITS_TWO",
+      "timeout":  "(float) – Set a read timeout value.",
+      "xonxoff":  "(bool) – Enable software flow control.",
+      "rtscts":   "(bool) – Enable hardware (RTS/CTS) flow control.",
+      "dsrdtr":   "(bool) – Enable hardware (DSR/DTR) flow control.",
+      "writetimeout": "(float) – Set a write timeout value.",
+      "interbytetimeout": "(float) – Inter-character timeout, None to disable (default).",
+      "sleep":    "(float) - Wait before read"
+    },
+    "default": {
+      "port": "COM1",
+      "baudrate": 9600,
+      "sleep": 0.5
+    }
+  },
+  "data": {
+    "eth": {
+      "PASSW": "1234",
+      "DHCP": "Y",
+      "ETH Protocol": "Y",
+      "Local port": "",
+      "ID": "",
+      "Monitor 0": "Y",
+      "DNS Mon 0": "N",
+      "Remote IP": "178.88.117.71",
+      "Remote port": "9100",
+      "Monitor 1": "N",
+      "KeepAlive": "",
+      "Monitor 0 ACK enable": "N",
+      "Monitor 1 ACK enable": "N",
+      "Reserve Channel enable": "N",
+      "Periodic Test Report": "0FFF",
+      "Periodic Test TimeOut": "10",
+      "AC_R": "0A03",
+      "AC_L": "0903",
+      "BATR": "0A02",
+      "BATL": "0902",
+      "COMR": "3356",
+      "COML": "1356",
+      "IN1O": "026F",
+      "IN1C": "027F",
+      "IN2O": "02F1",
+      "IN2C": "02F2",
+      "IN3O": "02F3",
+      "IN3C": "02F4",
+      "IN4O": "02F5",
+      "IN4C": "02F6",
+      "IN5O": "029C",
+      "IN5C": "029D",
+      "IN6O": "0903",
+      "IN6C": "0A03",
+      "Delay": "",
+      "  - Kodinis": "",
+      "New Password": "N"
+    }
+
+  }
+}
